@@ -5,7 +5,7 @@ import logging
 import urllib
 
 webhook_url = (
-    "https://hooks.slack.com/services/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"
+    "https://hooks.slack.com/services/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"
 )
 app = func.FunctionApp()
 
@@ -38,4 +38,3 @@ def az_test(req: func.HttpRequest) -> func.HttpResponse:
             "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
             status_code=200,
         )
-
